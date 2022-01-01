@@ -1,0 +1,24 @@
+.itemDish {
+    margin-bottom: 14px;
+    .wrapper {
+        display: flex;
+        .image {
+            flex: 1;
+            margin-right: 15px;
+            height: 47px;
+        }
+        .content {
+            flex: 4.5;
+            display: flex;
+            flex-direction: column;
+            .title {
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .author {
+                font-size: 11px;
+                margin-top: 3px;
+            }
+        }
+    }
+}

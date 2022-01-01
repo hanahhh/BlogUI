@@ -1,0 +1,29 @@
+.RecipeImage {
+    width: 220px;
+    height: 150px;
+    background: red;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .title {
+            font-size: 14px;
+        }
+        .info {
+            width: 90%;
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                margin-right: 5px;
+            }
+        }
+    }
+}

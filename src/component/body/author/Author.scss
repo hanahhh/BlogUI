@@ -1,0 +1,90 @@
+.userInfo {
+    width: 100%;
+    .header {
+        span {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+        }
+        .line {
+            width: 100%;
+            height: 1px;
+            background: rgba(45, 45, 45, 1);
+            margin-top: 20px;
+        }
+    }
+.author {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 18px;
+            h3 {
+                margin-bottom: 15px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+    }
+}
+.follow {
+    margin-top: 25px;
+    .chanel {
+        margin-top: 24px;
+        button {
+            width: 133px;
+            height: 43px;
+            border: none;
+            margin-right: 5px;
+        }
+        .up {
+            display: flex;
+            margin-bottom: 5px;
+        }
+    }
+}
+.ad {
+    width: 270px;
+    height: 266px;
+    background-image: url("../../../../public/res/ad.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 195px;
+    background: #DEDADA;
+    margin-top: 25px;
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    button {
+        border: none;
+        width: 220px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .btn-up {
+        background-color: white;
+    }
+    .btn-down {
+        background-color: #FE4A51;
+    }
+}
+}

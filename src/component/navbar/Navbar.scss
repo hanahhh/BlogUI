@@ -1,0 +1,41 @@
+.navbar {
+    margin-top: 42px;
+    width: 100vw;
+    height: 116px;
+    .container {
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .logo {
+                flex: 1;
+                h1 {
+                    color: #FE4A51;
+                    span{
+                        color: #2D2D2D;
+                    }
+                }
+            }
+            .center {
+                flex: 2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .search {
+                flex: 1;
+                margin-left: 100px;
+                input {
+                    width: 135px;
+                    height: 38px;
+                    outline: none;
+                    border: none;
+                    background: #FFFFFF;
+                    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 30px;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+}

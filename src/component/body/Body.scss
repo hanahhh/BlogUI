@@ -1,0 +1,16 @@
+.body {
+    margin-top: 60px;
+    .container {
+        .wrapper {
+            display: flex;
+            .left {
+                flex: 3;
+            }
+            .right {
+                flex: 1;
+                margin-left: 35px;
+            }
+        }
+       
+    }
+}
